@@ -193,8 +193,14 @@ header {
     padding-left: 12px;
     padding-right: 12px;
 }
+.about:hover{
+    color: white;
+}
 
 @media (max-width:992px) {
+    .svg1{
+        flex-direction: column;
+    }
     .lg-view {
         flex-direction: column;
         width: 100%;
